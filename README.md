@@ -52,6 +52,44 @@ o
 pnpm start
 ```
 
+## use
+
+open your navigator and type 
+
+```
+http:localhost:3000/api/[user instagram]
+```
+response
+
+```
+{
+    "userInfo": {
+        "id": "account ID",
+        "biography": " account biography",
+        "profileName": "full account name",
+        "profileImage": "https://",
+        "followersNumber": folloers,
+        "isPrivate": false,
+        "followed_by_viewer": false
+    },
+    "stories": [
+        {
+            "type": "video",
+            "url": "https://"
+        },
+        {
+            "type": "video",
+            "url": "https://"
+        },
+        {
+            "type": "image",
+            "url": "https://"
+        }
+    ]
+}
+```
+
+
 ## /***/
 
 if you have a error, is probably the cookie  code
